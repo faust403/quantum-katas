@@ -30,6 +30,7 @@
         {
             H(q1);
             H(q2);
+            CNOT(q1, q2); // if q1 == One then q2 reversing
 
             //Measure each qubit
             let resultQ1 = M(q1);
